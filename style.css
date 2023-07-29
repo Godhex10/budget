@@ -201,7 +201,7 @@ input[type=number] {
     border-radius: 15px;
     color: #000;
     transition: .5s all ease;
-    width: 25%;
+    width: 20%;
     padding-left: 26px;
     font-weight: bolder;
 }
