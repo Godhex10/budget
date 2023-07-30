@@ -434,12 +434,19 @@ input[type=number] {
     padding: 0;
     overflow-x: auto;
     background: #0000002e;
-    padding-top: 25px;
+    padding-top: 22px;
 }
 
 .budget-dashboard #income ul.list li{
+    margin-left: 10px;
     position: relative;
     font-size: 1em;
+    padding-bottom: 10px;
+    background: #f8f8f8;
+    margin-top: 15px;
+    padding-top: 23px;
+    border-radius: 22px;
+    margin-right: 10px;
 }
 
 .budget-dashboard #income ul.list li *{
