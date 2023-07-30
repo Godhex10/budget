@@ -10,9 +10,6 @@ const allEl = document.querySelector("#all");
 const incomeList = document.querySelector("#income .list");
 const expenseList = document.querySelector("#expense .list");
 const allList = document.querySelector("#all .list");
-const countingElement = document.querySelector(".value");
-const incomeTotal = document.querySelector(".income-total");
-const outcomeTotal = document.querySelector(".outcome-total");
 
 // SELECT BTNS
 const expenseBtn = document.querySelector(".tab1");
@@ -138,8 +135,8 @@ function updateUI(){
 
     // UPDATE UI
     balanceEl.innerHTML = `<b style="color:#f8f8f8;"></b>${balance}.00`;
-    outcomeTotalEl.innerHTML = `<b>₦</b>${outcome}`;
-    incomeTotalEl.innerHTML = `<b>₦</b><b>${income}</b>`;
+    outcomeTotalEl.innerHTML = `<small style="font-size:27px;">₦</small>${outcome}`;
+    incomeTotalEl.innerHTML = `<small style="font-size:27px;">₦</small>${income}`;
 
     clearElement( [expenseList, incomeList, allList] );
 
