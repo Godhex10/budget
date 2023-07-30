@@ -432,9 +432,9 @@ input[type=number] {
     list-style: none;
     margin: 0;
     padding: 0;
-    margin-top:30px;
     overflow-x: auto;
     background: #0000002e;
+    padding-top: 22px;
 }
 
 .budget-dashboard #income ul.list li{
