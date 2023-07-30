@@ -156,7 +156,7 @@ input[type=number] {
     /* border-radius: 15px; */
     color: #f8f8f8;
     /* margin-left: 4px; */
-    box-shadow: -9px 8px 20px 7px #0a0a0ab3, inset -5px -7px 20px 2px #1e1e1e;
+    box-shadow: -9px 8px 20px 7px #0a0a0a54, inset -5px -7px 20px 2px #1e1e1e;
 }
 
 .toggle .one{
@@ -230,13 +230,21 @@ input[type=number] {
     list-style: none;
     margin: 0;
     padding: 0;
-    margin-top: 30px;
     overflow-x: auto;
+    background: #0000002e;
+    padding-top: 22px;
 }
 
 .budget-dashboard #all ul.list li{
+    margin-left: 10px;
     position: relative;
     font-size: 1em;
+    padding-bottom: 10px;
+    background: #f8f8f8;
+    margin-top: 15px;
+    padding-top: 23px;
+    border-radius: 22px;
+    margin-right: 10px;
 }
 
 .budget-dashboard #all ul.list li *{
@@ -329,13 +337,21 @@ input[type=number] {
     list-style: none;
     margin: 0;
     padding: 0;
-    margin-top:30px;
     overflow-x: auto;
+    background: #0000002e;
+    padding-top: 22px;
 }
 
 .budget-dashboard #expense ul.list li{
+    margin-left: 10px;
     position: relative;
     font-size: 1em;
+    padding-bottom: 10px;
+    background: #f8f8f8;
+    margin-top: 15px;
+    padding-top: 23px;
+    border-radius: 22px;
+    margin-right: 10px;
 }
 
 .budget-dashboard #expense ul.list li *{
