@@ -221,7 +221,7 @@ input[type=number] {
 /* ////////// ALL ///////////// */
 .budget-dashboard #all{
     width: 360px;
-    height: 339px;
+    height: 450px;
     position: relative;
     background: #0000002e;
     padding-top: 20px;
