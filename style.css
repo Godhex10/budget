@@ -241,7 +241,7 @@ input[type=number] {
     margin: 0;
     padding: 0;
     overflow-x: auto;
-    ?* background: #f8f8f8; */
+    /* background: #f8f8f8; */
     /* padding-top: 22px; */
     border-top-left-radius: 10px;
     margin-left: 10px;
@@ -351,7 +351,7 @@ input[type=number] {
 
 .budget-dashboard #expense ul{
     width: 360px;
-    height: 285px;
+    height: 450px;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -365,7 +365,7 @@ input[type=number] {
     position: relative;
     font-size: 1em;
     padding-bottom: 10px;
-    background: #f8f8f8;
+    /* background: #f8f8f8; */
     margin-top: 15px;
     padding-top: 23px;
     border-radius: 22px;
@@ -462,7 +462,7 @@ input[type=number] {
 
 .budget-dashboard #income ul{
     width: 360px;
-    height: 285px;
+    height: 450px;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -476,7 +476,7 @@ input[type=number] {
     position: relative;
     font-size: 1em;
     padding-bottom: 10px;
-    background: #f8f8f8;
+    /* background: #f8f8f8; */
     margin-top: 15px;
     padding-top: 23px;
     border-radius: 22px;
