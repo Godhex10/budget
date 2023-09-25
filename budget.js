@@ -30,6 +30,7 @@ let ENTRY_LIST;
 let balance = 0, income = 0, outcome = 0;
 const DELETE = "delete", EDIT = "edit";
 
+
 // LOOK IF THERE IS SAVED DATA IN LOCALSTORAGE
 ENTRY_LIST = JSON.parse(localStorage.getItem("entry_list")) || [];
 updateUI();
@@ -156,10 +157,14 @@ function updateUI(){
 
 function showEntry(list, type, title, amount, id){
 
-    const entry = ` <li id = "${id}" class="${type}">
-                        <div class="entry">${title}: ₦${amount}</div>
+    const entry = ` <li id = "${id}" class="${type}"><div id="icon" style="background: black;width: 46px;border-radius: 50%;height: 46px; bottom:15px; position:relative;">
+                        <i style="color: #1ec677; font-size: 20px; padding:12px;" class="fa-solid fa-money-bill"></i>
+                        </div>
+                        <div class="entry" style="font-size: 16px; bottom: 20px; position: relative;">${title}</div>
+                        <div class="price" style="float:right; position: relative; padding-right: 15px; bottom: 50px; font-size: 16px;">₦${amount}</div>
+                        <span id="datetime" style="padding-left: 58px; bottom: 35px; position: relative; color: #ffffffb5;">Yesterday 12:52pm</span>
                         <div id="edit"></div>
-                        <div id="delete"></div>
+                        <!--<div id="delete"></div>-->
                     </li>`;
 
     const position = "afterbegin";

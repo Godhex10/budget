@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pop-up Page</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+
+  .popup {
+    
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .popup.active {
+    display: block;
+  }
+
+  .popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .popup-close {
+    cursor: pointer;
+    color: #999;
+    font-size: 18px;
+  }
+
+  .popup-content {
+    margin-bottom: 10px;
+  }
+
+  .popup-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+<div class="popup" id="popup">
+  <div class="popup-header">
+    <h2>Pop-up Title</h2>
+    <span class="popup-close" id="popup-close">&times;</span>
+  </div>
+  <div class="popup-content">
+    <p>This is the content of the pop-up.</p>
+  </div>
+  <button class="popup-button" id="popup-button">Open Pop-up</button>
+</div>
+
+<script>
+  const popup = document.getElementById('popup');
+  const popupButton = document.getElementById('popup-button');
+  const popupClose = document.getElementById('popup-close');
+
+  popupButton.addEventListener('click', () => {
+    popup.classList.add('active');
+  });
+
+  popupClose.addEventListener('click', () => {
+    popup.classList.remove('active');
+  });
+</script>
+</body>
+</html>

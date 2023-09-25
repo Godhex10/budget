@@ -31,8 +31,8 @@ input[type=number] {
 .budget-container{
     position: absolute;
     width: 100%;
-    height: 780px;
-    top: 50%;
+    height: 100px;
+    padding-top: 20px;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
@@ -132,7 +132,6 @@ input[type=number] {
 .budget-dashboard{
     display: block;
     width: 100%;
-    height: 67%;
     background-color: #F8f8f8;
     margin-top: 65px;
     border-radius: 30px 30px 0 0;
@@ -149,6 +148,7 @@ input[type=number] {
 .toggle{
     display: block;
     margin-top: 13px;
+    padding-left: 25px;
     background: #1e1e1e;
     height: 55px;
     padding-top: 7px;
@@ -186,7 +186,7 @@ input[type=number] {
 }
 
 .toggle .tab2{
-    padding-left: 29px;
+    padding-left: 20px;
 }
 
 /* .toggle .tab1{
@@ -220,22 +220,22 @@ input[type=number] {
 
 /* ////////// ALL ///////////// */
 .budget-dashboard #all{
-    width: 360px;
+    width: 100%;
     height: 450px;
     position: relative;
-    background: #0000002e;
+    background: #1e1e1ee3;
     padding-top: 20px;
 }
 
 .budget-dashboard #all g{
     margin-left: 20px;
-    color: #00000082;
+    color: #ffffffc7;
     font-weight: bolder;
     font-family: 'Nunito Sans', sans-serif;
 }
 
 .budget-dashboard #all ul{
-    width: 340px;
+    width: 100%;
     height: 400px;
     list-style: none;
     margin: 0;
@@ -250,18 +250,22 @@ input[type=number] {
 }
 
 .budget-dashboard #all ul.list li{
-    margin-left: 15px;
+    margin-left: 5px;
     position: relative;
     font-size: 1em;
     padding-bottom: 10px;
     margin-top: 15px;
-    border-bottom: 1px solid #cbcbcb;
+    border: 1px solid #25252563;
     margin-bottom: -15px;
-    /* background: #f8f8f8c7; */
+    background: #2d2d2d73;
     padding-top: 30px;
     padding-left: 10px;
     /* padding-right: 64px; */
     margin-right: 15px;
+    height: 46px;
+    border-radius: 10px;
+    color: #fff;
+    width: 87%;
    
 }
 
@@ -274,7 +278,7 @@ input[type=number] {
 .budget-dashboard #all ul.list li .entry{
     width:250px;
     height: auto;
-    padding-left: 20px;
+    padding-left: 10px;
     margin-bottom: 10px;;
     word-wrap: break-word;
     font-family: 'Nunito Sans', sans-serif;
